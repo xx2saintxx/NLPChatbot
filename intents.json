@@ -1,0 +1,797 @@
+{
+    "intents":[
+        {
+            "tag":"add-new-client",
+            "patterns":[
+                "How do I add a new client?",
+                "How can I add a new client?",
+                "How do I add someone?",
+                "Can I add a new client?",
+                "How to add a client",
+                "Where can I add a client?",
+                "How can I add new clients?",
+                "How can I add a client?",
+                "What are the steps to add a new client?",
+                "How would I add a new client to my class?",
+                "What should I do to add a new client?",
+                "How can you add a new client?",
+                "I have a new client, how do I add them?",
+                "I'm trying to add a new client",
+                "There's a new client that I have to add"
+            ],
+            "responses":[
+                "To add a new client, navigate to the \"left menu\", select \"Clients\". After, you will see an \"Add Client\" button on the top right. Click on it to add your new client."
+            ],
+            "context_set":""
+        },
+        {
+            "tag":"client-list",
+            "patterns":[
+                "Where is my client list?",
+                "Where can I see my clients?",
+                "How do I see my client list?",
+                "Where is my list of clients?",
+                "Where is my clientele?",
+                "Where can I locate my list of clients?",
+                "How can I find my client list?",
+                "Where is my client information located?",
+                "How can I see my clients?",
+                "How can you access the client list?",
+                "I need to find my client list",
+                "Where can I find my client list?",
+                "I can't find my client list",
+                "Where are my current clients?",
+                "Is it possible to see my current clients?",
+                "Do you have my current clients?",
+                "How do you find your current clients",
+                "How do I see my current clients?",
+                "How do I look at my clients?",
+                "Where is my client list?",
+                "Can I see my clients?",
+                "How to see a client",
+                "Where is the list of my existing clients?",
+                "How do I view my current clients?",
+                "What to do to view current clientele?",
+                "Where is the information of people who take my classes?"
+            ],
+            "responses":[
+                "To view your list of clients, navigate to the \"left menu\", select \"Clients\"."
+            ]
+        },
+        {
+            "tag":"remove-client-from-class",
+            "patterns":[
+                "How can I remove a new client?",
+                "How can I delete a new client",
+                "I need to delete a new client",
+                "Can you remove a new client?",
+                "How do I get rid of a client?",
+                "How do I delete a client?",
+                "Can I remove a client from my client list?",
+                "How do I remove a client from my clients?",
+                "How do I remove clients?",
+                "How do I remove a new client?",
+                "How do I delete a client?",
+                "Where do I go to remove a client?",
+                "What is the client removal process?",
+                "What are the steps to remove a client?",
+                "How do I remove a new client?",
+                "How can I remove a new client?",
+                "How can I delete a new client",
+                "I need to delete a new client",
+                "Can you remove a new client?"
+            ],
+            "responses":[
+                "To remove a client from a class, you can go into your class and press the black \"X\" next to the client. You can \"Hide\" a client from your roster as well, which will disable billing."
+            ]
+        },
+        {
+            "tag":"current-classes",
+            "patterns":[
+                "How can you access my current classes?",
+                "Where do you find my current classes?",
+                "I can't find my current class",
+                "Can I see my current classes?",
+                "Where can I see my current classes?",
+                "Where are my classes?",
+                "Where can I see my class?",
+                "How do I see my classes?",
+                "Can I see a list of my classes?",
+                "Where is a list of all my classes?",
+                "How can I view my current classes?",
+                "Where is my current class list?",
+                "How can you access my past classes?",
+                "Where do you find my past classes?",
+                "I can't find my last class",
+                "Can I see my past classes?",
+                "Where can I see my past classes?",
+                "Can I see a list of my past classes?",
+                "Can I look at past classes I've hosted?",
+                "Where are my previous classes?",
+                "How do I find a past class?",
+                "How can I find record of my previous classes?",
+                "Is there a list of my past classes available?",
+                "Where can I find information on older former classes?",
+                "Where is my class history?",
+                "Where can I view my past classes?",
+                "How can you access my past classes?",
+                "Where do you find my past classes?",
+                "I can't find my last class",
+                "Can I see my past classes?"
+            ],
+            "responses":[
+                "Click on the \"Classes\" tab in the \"left menu\". Your \"Past Classes\" will appear as the 3rd option on the top menu."
+            ]
+        },
+        {
+            "tag":"name-class",
+            "patterns":[
+                "How can you rename a class?",
+                "Where do you name a class?",
+                "Where do I name a class?",
+                "I want to name a class",
+                "How do I name a class?",
+                "How do I name my class?",
+                "Can I name a class?",
+                "Where do I name my class?",
+                "How do I name classes?",
+                "What to do to name a class?",
+                "How can I rename my class?",
+                "How can you edit an existing class?",
+                "Where do I edit an existing class?",
+                "Where do you edit a class",
+                "I want to edit an existing class",
+                "How do I edit an existing class",
+                "How do I edit a class",
+                "How to modify an existing class",
+                "Can I change a set class",
+                "How can I modify an existing class",
+                "How do I edit a class",
+                "How do I change a class",
+                "How do I change the date of a class",
+                "How do I change the name of a class",
+                "How do I change the clients in a class",
+                "How do I change the time of a class",
+                "How do I make changes to a class",
+                "How do I update a class",
+                "How can I modify my classes",
+                "Where can changes be made to classes",
+                "How can changes be made to classes",
+                "How do I edit an existing class?",
+                "How can you edit an existing class?",
+                "Where do I edit an existing class?",
+                "Where do you edit a class",
+                "I want to edit an existing class",
+                "I don't know how to edit a class,",
+                "How can you rename a class?",
+                "Where do you name a class?",
+                "Where do I name a class?",
+                "I want to name a class",
+                "Name a class."
+            ],
+            "responses":[
+                "Click on the \"Classes\" tab in the \"left menu\", click \"Edit Class\" on the class that you would like to edit. You may edit the name, date, or time of a class."
+            ]
+        },
+        {
+            "tag":"add-class-at-time-and-or-date",
+            "patterns":[
+                "I want to have a class at this time",
+                "How do I schedule a class for this time?",
+                "Is it possible to schedule a class for this time?",
+                "I would like to schedule a class at a specific time",
+                "How do I have a class at a specific time?",
+                "How do I set a time for a class?",
+                "How do I set a class time?",
+                "How do have a class start at a certain time?",
+                "How do I have a class end at a certain time?",
+                "Where can I locate class times?",
+                "How do I set a class for a certain time?",
+                "How do I have a class at a specific time?",
+                "I want to have a class at this time",
+                "How do I schedule a class for this time?",
+                "Is it possible to schedule a class for this time?",
+                "I want to have a class on this day",
+                "How do I schedule a class for?",
+                "Is it possible to schedule a class for?",
+                "I would like to schedule a class on a specific date",
+                "How do I have a class at a specific date?",
+                "How do I date a class?",
+                "How do I have a class on a certain date?",
+                "How do I have a class every Monday?",
+                "How do I have a class every Tuesday?",
+                "How do I have a class every Wednesday?",
+                "How do I have a class every Thursday?",
+                "How do I have a class every Friday?",
+                "How do I have a class every Saturday?",
+                "How do I have a class every Sunday?",
+                "How do I host a class every week?",
+                "How do I set the date that a class will be?",
+                "How do I customize the date of when a class will be?",
+                "What's the best way to find a class on a given date?",
+                "How do I schedule a lesson on a specific date?",
+                "How can I view the classes on ",
+                "What classes are available on ",
+                "How do I have a class at a specific date?",
+                "How do I have a class at a specific date?",
+                "I want to have a class at this date",
+                "How do I schedule a class for this date?",
+                "Is it possible to schedule a class for this date?",
+                "I would like to schedule a class at a specific date",
+                "How do I  add a class at a specific date?",
+                "I want to have a class on this day?",
+                "How do I schedule a class for this day?",
+                "Is it possible to schedule a class for this day?",
+                "I would like to schedule a class on a specific date",
+                "I would like to schedule a class at a specific time"
+            ],
+            "responses":[
+                "Click on the \"Classes\" tab in the \"left menu\". After, click \"Add Class\", then the options for \"Date\", \"Start Time\", and \"End Time\" will appear."
+            ]
+        },
+        {
+            "tag":"add-client-to-class",
+            "patterns":[
+                "How do I add a client to a class?",
+                "How do I add a client to my class?",
+                "How do I add clients to my class?",
+                "How do I add clients to my classes?",
+                "Can I add clients to my class?",
+                "How do I add an existing client to another class?",
+                "How can I include an existing client in another class?",
+                "How can I add on a client to a class?",
+                "I am trying to add my client to a class, but they are not showing up in the options list.",
+                "I can't add one of my clients to a class",
+                "I am having trouble adding one of my clients to a class",
+                "I'm trying to add a client to one of my classes, but they are not appearing on the options list",
+                "I don't see my client when I'm trying to add them to a class",
+                "I can't find one my clients when I try to add them to a class",
+                "Steps to add a client to my class."
+            ],
+            "responses":[
+                "To add a client to a class, navigate to the \"left menu\" and select the \"Classes\" tab. Click on the class you want to put your client into. Then click on \"Select Client\" and choose your client. If your client does not appear to be there, then you may have to add your client to your client list."
+            ]
+        },
+        {
+            "tag":"add-class-remove-client",
+            "patterns":[
+                "How can you remove a client from a class?",
+                "Where do I remove a client from a class?",
+                "Where do I delete a client from a class?",
+                "I want to remove a client from a class",
+                "How do I remove a client from a class?",
+                "How do I remove clients from classes?",
+                "How do I delete clients from classes?",
+                "Can I remove a client from a class?",
+                "Where can I delete a client from a class?",
+                "What is the client removal process?",
+                "How would I delete a client from my class?",
+                "How do I withdraw a client from a class?",
+                "How do I cut a client from my class?",
+                "How do I remove a client from a class?",
+                "How can you remove a client from a class?",
+                "Where do I remove a client from a class?",
+                "Where do I delete a client from a class?",
+                "I want to remove a client from a class",
+                "How can you remove a client from a class?",
+                "Where do I remove a client from a class?",
+                "Where do I delete a client from a class?",
+                "I want to remove a client from a class",
+                "I don't know how to remove a client from a class"
+            ],
+            "responses":[
+                "Click on the \"Classes\" tab in the \"left menu\", click \"edit class\" on the class that you want to remove the client from. You will see the clients listed at the bottom of the class details with an \"X\" on the right side of each client name. Click the \"X\" to remove a client from the class."
+            ]
+        },
+        {
+            "tag":"add-class",
+            "patterns":[
+                "How can you add a reoccurring class?",
+                "Where do you add recurring classes?",
+                "How can you add a recurring class?",
+                "Where do you add reoccurring classes?",
+                "How can I add a reccurring class?",
+                "How do I add a class that happens multiple times?",
+                "How do I create a class that happens over and over?",
+                "How do I add a class that recurs?",
+                "Can I add a recurring class?",
+                "How to sign up for a recurring class?",
+                "How do I join reoccurring classes?",
+                "Where do I add on repeating classes?",
+                "What can I do to add a recurring class?",
+                "How can I add a nonrecurring class?",
+                "How can you add a non-recurring class?",
+                "Where do I add a non-recurring class?",
+                "Where do I add a non-reoccurring class",
+                "I want to add a non-reoccurring class",
+                "I don't know how to add a nonrecurring class",
+                "How do I add a recurring class?",
+                "How can you add a reoccurring class?",
+                "Where do you add recurring classes?",
+                "How can you add a recurring class?",
+                "How can you add a new class?",
+                "Where do I add a new class?",
+                "Where do I add a class",
+                "I want to add a class",
+                "How can I add a class?",
+                "How do I add a class?",
+                "How do I create a class?",
+                "Can I create a new class?",
+                "Where do I create a new class?",
+                "How can I schedule a class?",
+                "Quick way to add a class",
+                "Where do I go to start a class?",
+                "How can you add a non-recurring class?",
+                "Where do I add a non-recurring class?",
+                "Where do I add a non-reoccurring class",
+                "I want to add a non-reoccurring class",
+                "How can I add a non reccurring class?",
+                "How can I add a class that only happens once?",
+                "I want to add a class that only happens once.",
+                "I want to add a nonrecurring class.",
+                "Can I add a class that only happens one time?",
+                "How can I add a nonrecurring class?",
+                "How can you add a non-recurring class?",
+                "Where do I add a non-recurring class?",
+                "Where do I add a non-reoccurring class",
+                "I want to add a non-reoccurring class",
+                "How can I add a session?",
+                "Where do you add reoccurring classes?"
+            ],
+            "responses":[
+                "To add a Class, click on the \"Classes\" tab in the \"left menu\". Underneath the date, you will see the words \"does not repeat\" since a non-recurring class is the default setting. If you prefer to set a recurring class then click on the dropdown menu to specify how often the class repeats."
+            ]
+        },
+        {
+            "tag":"remove-class-remove-class",
+            "patterns":[
+                "How can you remove a class?",
+                "Where do I remove a class?",
+                "Where do I delete a class?",
+                "I want to remove a class",
+                "How do I remove a class",
+                "How to remove a class",
+                "I created two classes, how do I remove one",
+                "I don't give classes anymore, how do I delete them",
+                "Can I delete a class",
+                "How do I delete a class",
+                "How do I delete classes from my class list",
+                "How do I end a class",
+                "Where can I delete a class",
+                "How can I get rid of a class",
+                "How would I cancel a class",
+                "Where do I go to remove a class from my schedule",
+                "How do I take a class off my schedule",
+                "How do I remove a class?",
+                "How can you remove a class?",
+                "Where do I remove a class?",
+                "Where do I delete a class?",
+                "I want to remove a class",
+                "I don't know how to remove classes",
+                "I don't know how to delete classes"
+            ],
+            "responses":[
+                "Once a class has already occurred, you cannot delete since it creates data and progress views for each client. If you want to delete a class that has not occurred yet, then click on the \"Classes\" tab in the \"left menu\", and click on the \"X\" in the box for that class."
+            ]
+        },
+        {
+            "tag":"view-schedule-view-schedule",
+            "patterns":[
+                "How can I view my schedule?",
+                "Where do I view my schedule?",
+                "Where can I find my schedule?",
+                "Have you seen my schedule?",
+                "How do I view my schedule",
+                "Show my schedule",
+                "What's my schedule",
+                "How can I see my schedule",
+                "Where can I see my schedule?",
+                "How do I view my agenda",
+                "Where do I see my fitness schedule",
+                "How do I see my schedule",
+                "How do I find my schedule",
+                "How can I view my monthly schedule?",
+                "Where do I view my monthly schedule?",
+                "Where can I find my monthly schedule?",
+                "Have you seen my monthly schedule?",
+                "How do I view my monthly schedule",
+                "Show my monthly schedule",
+                "What's my monthly schedule",
+                "How can I see my monthly schedule",
+                "Where can I see my monthly schedule?",
+                "How do I view my agenda for the day",
+                "Where do I see my everyday fitness schedule",
+                "How do I see my monthly schedule",
+                "How do I find my schedule for the day",
+                "What does my schedule for the day look like",
+                "How do I view my monthly schedule?",
+                "How can I view my monthly schedule?",
+                "Where do I view my monthly schedule?",
+                "Where can I find my monthly schedule?",
+                "Have you seen my monthly schedule?",
+                "How can I view my weekly schedule?",
+                "Where do I view my weekly schedule?",
+                "Where can I find my weekly schedule?",
+                "Have you seen my weekly schedule?",
+                "How do I view my weekly schedule",
+                "Show my weekly schedule",
+                "What's my weekly schedule",
+                "How can I see my weekly schedule",
+                "Where can I see my weekly schedule?",
+                "How do I view my agenda for the day",
+                "Where do I see my everyday fitness schedule",
+                "How do I see my weekly schedule",
+                "How do I find my schedule for the day",
+                "What does my schedule for the day look like",
+                "How do I view my weekly schedule?",
+                "How can I view my weekly schedule?",
+                "Where do I view my weekly schedule?",
+                "Where can I find my weekly schedule?",
+                "Have you seen my weekly schedule?",
+                "How can I view my daily schedule?",
+                "Where do I view my daily schedule?",
+                "Where can I find my daily schedule?",
+                "Have you seen my daily schedule?",
+                "How do I view my daily schedule",
+                "Show my daily schedule",
+                "What's my daily schedule",
+                "How can I see my daily schedule",
+                "Where can I see my daily schedule?",
+                "How do I view my agenda for the day",
+                "Where do I see my everyday fitness schedule",
+                "How do I see my daily schedule",
+                "How do I find my schedule for the day",
+                "What does my schedule for the day look like",
+                "How do I view my daily schedule?",
+                "How can I view my daily schedule?",
+                "Where do I view my daily schedule?",
+                "Where can I find my daily schedule?",
+                "Have you seen my daily schedule?",
+                "How can I view my appointments for the day?",
+                "Where do I view my appointments for the day?",
+                "Where can I find my appointments for the day?",
+                "Have you seen appointments for the day?",
+                "How I view my appointments for the day",
+                "How do I see what appointments I scheduled for today",
+                "How do I view my agenda for the day",
+                "How can I see my day's appointments",
+                "Where do I go to see my appointment list",
+                "Where is my list of appointments",
+                "How do I find my appointments",
+                "What's today's appointment",
+                "What is my appointment today",
+                "Give me information about my appointment",
+                "How can I view my next month appointments?",
+                "Where do I view my appointments for next month?",
+                "Where can I find my appointments for next month?",
+                "Have you seen appointments for next month?",
+                "How do I see previous month",
+                "How do I view the month before",
+                "Do I have classes next month",
+                "How can I view my previous month appointments?",
+                "Where do I view my appointments for the previous month?",
+                "Where can I find my appointments for the previous month?",
+                "Have you seen appointments for the previous month?",
+                "How can I view my previous month appointments?",
+                "Where do I view my appointments for the previous month?",
+                "Where can I find my appointments for the previous month?",
+                "Have you seen appointments for the previous month?",
+                "How do I see next month",
+                "How do I view the month after",
+                "How do I see previous/next month?",
+                "How can I view my next month appointments?",
+                "Where do I view my appointments for next month?",
+                "Where can I find my appointments for next month?",
+                "Have you seen appointments for next month?",
+                "What does my schedule look like"
+            ],
+            "responses":[
+                "Click on the \"Schedule\" tab in the \"left menu\", the default view is monthly. If you would like to change it to the week/day/agenda view, then click on the corresponding word on the top right menu."
+            ]
+        },
+        {
+            "tag":"greeting-hello",
+            "patterns":[
+                "Hello",
+                "Hi",
+                "Hey",
+                "Good morning",
+                "Good afternoon",
+                "Good evening",
+                "Hi there",
+                "What's up",
+                "Greetings",
+                "Good day",
+                "Heyo",
+                "Yo"
+            ],
+            "responses":[
+                "Hello there. How may I help you today?"
+            ]
+        },
+        {
+            "tag":"greeting-how-are-you",
+            "patterns":[
+                "How are you",
+                "How are you doing",
+                "I hope you are doing well",
+                "How are things",
+                "How's it going",
+                "How are you doing",
+                "How are things going for you",
+                "What's up",
+                "Y'all good",
+                "You good",
+                "How are you doing?",
+                "What's up?.",
+                "Como estas",
+                "How are you?"
+            ],
+            "responses":[
+                "I am motivated! I hope you are too!"
+            ]
+        },
+        {
+            "tag":"end-session",
+            "patterns":[
+                "Bye",
+                "Goodnight",
+                "Good night",
+                "Bye bye",
+                "Bai",
+                "Talk to you later",
+                "Thanks, bye",
+                "Goodbye",
+                "Good bye",
+                "Farewell",
+                "Later",
+                "See you",
+                "Cya",
+                "So long",
+                "Later",
+                "See ya",
+                "Ciao",
+                "Goodbye",
+                "See you later",
+                "Thanks, bye",
+                "Sounds good, bye"
+            ],
+            "responses":[
+                "Thank you for contacting MotivateU. I hope our chatbot served you well. Close the window to end the session and have a great day."
+            ]
+        },
+        {
+            "tag":"escalate-to-rep",
+            "patterns":[
+                "I want to talk to someone",
+                "I want to speak with customer service",
+                "I'd like to speak with an agent",
+                "Could I please talk to someone",
+                "Could I please talk to an associate ",
+                "Let me speak to someone",
+                "Let me talk to someone",
+                "Can I talk to customer service",
+                "Can you refer me to someone",
+                "I'd like to talk to someone",
+                "Can I talk to someone else",
+                "I'd like to talk to a person",
+                "Can I talk to someone",
+                "Just give me someone",
+                "Can I call someone",
+                "Can I reach someone please",
+                "Can I talk to a representative?",
+                "Can I talk to a rep?",
+                "I need someone, not a robot",
+                "I need someone"
+            ],
+            "responses":[
+                "OK, let me direct you to our customer service representatives. They will meet with you shortly."
+            ]
+        },
+        {
+            "tag":"question-not-answered",
+            "patterns":[
+                "No, you didn't answer my question to my satisfaction.",
+                "No",
+                "I don't understand ",
+                "I want to ask something else",
+                "I already did this",
+                "I saw this already",
+                "My question isn't answered",
+                "That's not what I asked",
+                "That's wrong",
+                "I still need help",
+                "Not what I want to know",
+                "No, that's not it",
+                "That's unrelated",
+                "I still don't know",
+                "That is not what I'm talking about.",
+                "No, I'm not asking about that.",
+                "That wasn't what I meant.",
+                "You have got it all wrong",
+                "Bruh",
+                "What?",
+                "You are not deadass"
+            ],
+            "responses":[
+                "I'm sorry, I can direct you to customer service or you can ask a different question."
+            ]
+        },
+        {
+            "tag":"question-answered",
+            "patterns":[
+                "Yes, you answered my question",
+                "Yes",
+                "This answers my question",
+                "Thank you",
+                "This helped",
+                "My question is answered",
+                "Thank you for answering my question",
+                "Thanks for the help",
+                "That's what I wanted to know",
+                "Yes, that's it",
+                "Thanks, that answers my question",
+                "That's what I needed",
+                "Yes, that is what I'm talking about.",
+                "Yes, I'm asking about that.",
+                "That's exactly what I meant.",
+                "Yes, that's it!",
+                "You right"
+            ],
+            "responses":[
+                "That's great."
+            ]
+        },
+        {
+            "tag":"client-video-troubleshooting",
+            "patterns":[
+                "Why can't my client see him or herself on the video?",
+                "My client is unable to see themselves",
+                "My client's video isn't working for them",
+                "The video won't turn on for my client",
+                "One of my clients cannot see themselves"
+            ],
+            "responses":[
+                "The camera's browser settings may have to be adjusted. If your client does not know where his or her camera browser settings are, please provide the following instructions for their respective browser: \n Apple Safari: https://support.apple.com/guide/safari/websites-ibrwe2159f50/15.1/mac/12.0 \n Google Chrome: https://support.google.com/chrome/answer/2693767?hl=en&co=GENIE.Platform%3DDesktop \n Microsoft Edge: https://support.microsoft.com/en-us/windows/windows-camera-microphone-and-privacy-a83257bc-e990-d54a-d212-b5e41beba857 \n Mozilla Firefox:https://support.mozilla.org/en-US/kb/how-manage-your-camera-and-microphone-permissions \n Otherwise, I can direct you to customer service."
+            ]
+        },
+        {
+            "tag":"classes-gray",
+            "patterns":[
+                "Why are some of my classes showing as grey?",
+                "Why are my classes showing as gray?",
+                "How come my classes are grey?",
+                "My classes are coming up as grey",
+                "My classes are coming up as gray",
+                "Some of my classes are gray.",
+                "Some of my classes are grey."
+            ],
+            "responses":[
+                "Your classes will be gray until the session is about to start. Three minutes before your class is about to begin, the class will turn white and the \"Launch Class\" button will appear. \n\n This could also mean the class was a non-reoccurring class and the date has passed. You can always go to your past classes tab, select it and reinitialize it by editing the class into a new date. "
+            ]
+        },
+        {
+            "tag":"client-not-showing-up-options-list",
+            "patterns":[
+                "I am trying to add my client to a class but they are not showing up in the options list.",
+                "I can't add my client to a class.",
+                "Where is the option to add my client to a class?",
+                "I can't see my client in my class",
+                "How do I add clients into classes"
+            ],
+            "responses":[
+                "Did you add the client under the clients tab on the left-side menu? If not, first add a client under the \"Clients\" tab on the left-side menu. If you did, then did your client register on the website? If not, then send a reminder email for your client to sign into the website and create a profile."
+            ]
+        },
+        {
+            "tag":"client-audio-troubleshooting",
+            "patterns":[
+                "Why can't my client hear me during a class?",
+                "Why can't my client hear me during a class?",
+                "My clients can't hear me in a class",
+                "My clients are unable to hear me during class",
+                "My clients say that they can't hear my voice",
+                "Why can't my clients hear me?",
+                "I can't talk to my clients during a class",
+                "I'm having issues with my clients hearing me during a class",
+                "Why can't my client hear me during a class?",
+                "My clients can't hear me in a class",
+                "My clients are unable to hear me during class",
+                "My clients say that they can't hear my voice",
+                "Why can't my clients hear me?",
+                "I can't talk to my clients during a class",
+                "I'm having issues with my clients hearing me during a class"
+            ],
+            "responses":[
+                "The audio browser settings may have to be adjusted. If your client does not know where his or her audio browser settings are please provide the following instructions."
+            ]
+        },
+        {
+            "tag":"classes-save",
+            "patterns":[
+                "My class won't save",
+                "How do I save my class",
+                "Why isn't my class saving?",
+                "My class isn't saving",
+                "Why won't my class save?",
+                "I want to save my class but it won't save",
+                "I don't know how to save my class"
+            ],
+            "responses":[
+                "Click on the \"Classes\" tab in the left menu, set up your class, and click the \"Save\" button. If that doesn't work, refresh the page and try again."
+            ]
+        },
+        {
+            "tag":"change-password",
+            "patterns":[
+                "I want to change my password",
+                "How do I change my password?",
+                "Can I change my password?",
+                "I don't know how to change my password",
+                "I forgot my password and want to reset it",
+                "How do I reset my password?",
+                "I want to reset my password"
+            ],
+            "responses":[
+                "To change your password, follow the instructions once logged in. If you have forgotten your password, follow the \"Reset password\" link on the login screen."
+            ]
+        },
+        {
+            "tag":"change-email",
+            "patterns":[
+                "I want to change my email",
+                "How do I change my email?",
+                "Can you change my email?",
+                "I don't know how to change my email",
+                "I want to change my email but I don't know how",
+                "How do I set a new email for my account?"
+            ],
+            "responses":[
+                "Yes, you can change your email! Please reach out to your account manager to do so."
+            ]
+        },
+        {
+            "tag":"view-clients-progress",
+            "patterns":[
+                "How can I see my clients' progress?",
+                "How do I track a client's progress?",
+                "Can I track clients' progress?",
+                "How do I view the progress of my clients?",
+                "I want to see my client's statistics",
+                "I want to see my client's progress"
+            ],
+            "responses":[
+                "For a trainer to view a client's stats after a class, select the \"Clients\", tab on the \"left menu\". You will then see \"Class Stats\" next to each client's name. Clients can also view their stats after a class, before leaving the session screen, by clicking on the caret/circumflex."
+            ]
+        },
+        {
+            "tag":"emergency-response",
+            "patterns":[
+                "My client has passed out on camera",
+                "There is an emergency",
+                "emergency",
+                "There is a medical emergency",
+                "Someone twisted something",
+                "Someone hurt themselves"
+            ],
+            "responses":[
+                "If there is an emergency, please follow your emergency procedures when training clients."
+            ]
+        },
+        {
+            "tag":"billing-button",
+            "patterns":[
+                "My client can't find the billing button.",
+                "Where is my client's billing button?",
+                "My client says they can't find billing",
+                "My client wants to find their bills",
+                "Where are my clients' bills",
+                "My client can't find their bills",
+                "Where is billing for clients located?"
+            ],
+            "responses":[
+                "The \"Billing\" button for clients is located on the \"left menu\" towards the bottom of the page."
+            ]
+        }
+    ]
+}
