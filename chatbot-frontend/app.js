@@ -1,4 +1,5 @@
 // app.js
+// Author: Toussaint Turnier
 // Refer to README.txt for usage and references.
 
 class Chatbox {
