@@ -7,6 +7,8 @@ ABOUT THE PROJECT
 
 This program is a chatbot that uses Natural Language Processing that will be used for basic customer service inquiries prior to those inquiries being elevated, when necessary, to a customer success manager.
 
+This is essentially my version of a boilerplate chatbot, that can be used freely, and use my example data as a starting point for any young engineer's journey into AI.
+
 
 GETTING STARTED
 
